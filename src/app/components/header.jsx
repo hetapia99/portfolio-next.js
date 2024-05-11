@@ -6,7 +6,7 @@ const Header = () => {
     return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
         <div className="grid grid-cols-1 gap-4 h-12">
-            <h1>Henry Tapia :P</h1>
+            <h1>Henry Tapia :D</h1>
             <h3>Jr. Design Engineer</h3>
             <p className="mt-2 mb-8 max-w-xs leading-normal">I am a creative who builds unique web pages for creatives using my Frontend and Web Design experience </p>
             <ul className="font-bold">
