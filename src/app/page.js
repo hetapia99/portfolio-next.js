@@ -4,9 +4,14 @@ import About from "./components/about";
 import Projects from "./components/projects";
 import Experience from "./components/experience";
 import Footer from "./components/footer";
+import Preloader from "./components/preloader";
+
 
 export default function Home() {
   return (
+
+    <>
+    <Preloader />
     <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
      <div className="lg:flex lg:justify-between lg:gap-4">
       
@@ -20,5 +25,6 @@ export default function Home() {
        </main>
       </div>
     </div>
+    </>
   );
 }
