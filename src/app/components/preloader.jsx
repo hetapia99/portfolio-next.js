@@ -1,7 +1,7 @@
 "use client"
 import Link from 'next/link'
 import React, {useEffect} from 'react'
-import { preLoaderAnim } from './animations/index.jsx';
+import { preLoaderAnim } from '../../animations/index.js';
 import './preloader.css'
 
 const Preloader = () => {
