@@ -17,7 +17,7 @@ export default function Home() {
       
        <Header />
 
-      <main id="content" className="overflow-y-auto pt-24 lg:w-1/2 lg:py-24 flex flex-col gap-4 h-full">
+      <main id="content" className="pt-24 lg:w-1/2 lg:py-24 flex flex-col gap-4 h-full">
        <section id="about" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"><About /></section>
        <section id="projects" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"><Projects /></section>
        <section id="experience" class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"><Experience /></section>
