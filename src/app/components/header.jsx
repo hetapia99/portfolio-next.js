@@ -1,32 +1,44 @@
+"use client"
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-const Header = () => {
+
+const Header = ({ isActive, text }) => {
+
+
     return (
-    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 ">
         <div className="grid grid-cols-1 gap-4 h-12">
             <h1>Henry Tapia :D</h1>
             <h3>Jr. Design Engineer</h3>
             <p className="mt-2 mb-8 max-w-xs leading-normal">I am a creative who builds unique web pages for creatives using my Frontend and Web Design experience </p>
             <ul className="font-bold">
-                <Link href='#about'>
-                <li className="mt-3 mb-3">About</li>
+              <li className={`nav-item ${isActive ? 'active' : ''}`}>
+                <Link class="group flex items-center py-3 " href="#about">
+                    <span class="nav-indicator ${isActive ? 'w-16 bg-opacity-100' : ''} mr-4 h-px w-8 bg-[#014921]/40 transition-all group-hover:w-16 group-hover:bg-[#014921] group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                    <span class="nav-text ${isActive ? 'text-opacity-100' : ''} text-xs font-bold uppercase tracking-widest text-[#014921]/40 group-hover:text-[#014921] group-focus-visible:text-slate-200">About</span>
                 </Link>
+              </li>
 
-                <Link href='#projects'>
-                <li className="mt-3 mb-3">Projects</li>
+              <li className={`nav-item ${isActive ? 'active' : ''}`}>
+                <Link class="group flex items-center py-3" href="#projects">
+                    <span class="nav-indicator mr-4 h-px w-8 bg-[#014921]/40 transition-all group-hover:w-16 group-hover:bg-[#014921] group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                    <span class="nav-text text-xs font-bold uppercase tracking-widest text-[#014921]/40 group-hover:text-[#014921] group-focus-visible:text-slate-200">Projects</span>
                 </Link>
+              </li>
 
-                <Link href='#experience'>
-                <li className="mt-3 mb-3">Experience</li>
+              <li className={`nav-item ${isActive ? 'active' : ''}`}>
+                <Link class="group flex items-center py-3" href="#experience">
+                    <span class="nav-indicator mr-4 h-px w-8 bg-[#014921]/40 transition-all group-hover:w-16 group-hover:bg-[#014921] group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                    <span class="nav-text text-xs font-bold uppercase tracking-widest text-[#014921]/40 group-hover:text-[#014921] group-focus-visible:text-slate-200">Experience</span>
                 </Link>
-
+              </li>
             </ul>
         </div>
         <ul className="ml-1 mt-8 flex">
             <Link href="https://www.linkedin.com/in/henry-tapia-" target="_blank" rel="noreferrer noopener" className="mr-8">
-            <li><svg width='24'height='24' fill="#014921" style={{ opacity: 0.6 }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></li>
+            <li><svg width='24'height='24' fill="#014921" style={{ opacity: 1 }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></li>
             </Link>
 
             <Link href='https://github.com/hetapia99' target="_blank" rel="noreferrer noopener" className="mr-8">
