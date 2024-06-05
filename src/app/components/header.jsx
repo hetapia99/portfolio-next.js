@@ -11,8 +11,8 @@ const Header = ({ isActive, text }) => {
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 ">
         <div className="">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Henry Tapia :D</h1>
-            <h2 class="mt-3 text-lg font-medium tracking-tight sm:text-xl">Jr. Design Engineer</h2>
-            <p className="mt-4 max-w-xs leading-normal">I am a creative who builds unique web pages for creatives using my Frontend and Web Design experience </p>
+            <h2 class="mt-3 text-lg font-medium tracking-tight sm:text-xl">Designer & Developer</h2>
+            <p className="mt-4 max-w-xs leading-normal">Building web applications for those who value creativity and expression as much as I do. </p>
             <nav className="nav hidden lg:block">
               <ul className="font-bold mt-16 w-max">
                 <li className={`active ${isActive ? 'active' : ''}`}>
