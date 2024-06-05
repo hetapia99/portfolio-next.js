@@ -33,16 +33,25 @@ const Experience = () => {
                                 </p>
                                 <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
                                     <li class="mr-1.5 mt-2">
-                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">JavaScript</div>
+                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">Ruby on Rails</div>
                                     </li>
                                     <li class="mr-1.5 mt-2">
                                         <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">TypeScript</div>
                                     </li>
                                     <li class="mr-1.5 mt-2">
-                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">React</div>
+                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">JavaScript</div>
                                     </li>
                                     <li class="mr-1.5 mt-2">
-                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">Storybook</div>
+                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">HTML</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">CSS/SCSS</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">Figma</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">UI/UX</div>
                                     </li>
                                 </ul>
                         </div>
@@ -70,16 +79,13 @@ const Experience = () => {
                                 <p class="mt-2 text-sm leading-normal">Worked with artist and venues to coordinate sound equipment setup for live events and recorded audio sessions. I was able to do this by leveraging my Adobe and Ableton software knowledge to edit and enhance the final result.</p>
                                 <ul class="mt-2 flex flex-wrap" aria-label="Technologies used">
                                     <li class="mr-1.5 mt-2">
-                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">JavaScript</div>
+                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">Ableton</div>
                                     </li>
                                     <li class="mr-1.5 mt-2">
-                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">TypeScript</div>
+                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">Adobe Audition</div>
                                     </li>
                                     <li class="mr-1.5 mt-2">
-                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">React</div>
-                                    </li>
-                                    <li class="mr-1.5 mt-2">
-                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">Storybook</div>
+                                        <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">Session Coordinator</div>
                                     </li>
                                 </ul>
                         </div>

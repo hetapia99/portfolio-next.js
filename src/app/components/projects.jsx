@@ -69,22 +69,22 @@ const Projects = () => {
                   >
                     <li class="mr-1.5 mt-2">
                       <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        JavaScript
+                        CMS
                       </div>
                     </li>
                     <li class="mr-1.5 mt-2">
                       <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        TypeScript
+                        CSS
                       </div>
                     </li>
                     <li class="mr-1.5 mt-2">
                       <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        React
+                        UI/UX Research
                       </div>
                     </li>
                     <li class="mr-1.5 mt-2">
                       <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        Storybook
+                        Design Thinking
                       </div>
                     </li>
                   </ul>
@@ -108,22 +108,17 @@ const Projects = () => {
                   >
                     <li class="mr-1.5 mt-2">
                       <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        JavaScript
+                        HTML
                       </div>
                     </li>
                     <li class="mr-1.5 mt-2">
                       <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        TypeScript
+                        CSS
                       </div>
                     </li>
                     <li class="mr-1.5 mt-2">
                       <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        React
-                      </div>
-                    </li>
-                    <li class="mr-1.5 mt-2">
-                      <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        Storybook
+                        Bootstrap
                       </div>
                     </li>
                   </ul>
@@ -145,22 +140,17 @@ const Projects = () => {
                   >
                     <li class="mr-1.5 mt-2">
                       <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        JavaScript
+                        Photoshop
                       </div>
                     </li>
                     <li class="mr-1.5 mt-2">
                       <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        TypeScript
+                        Adobe XD
                       </div>
                     </li>
                     <li class="mr-1.5 mt-2">
                       <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        React
-                      </div>
-                    </li>
-                    <li class="mr-1.5 mt-2">
-                      <div class="flex items-center rounded-full bg-[#FF7F50]/10 px-3 py-1 text-xs font-medium leading-5 text-[#FF7F50] ">
-                        Storybook
+                        Figma
                       </div>
                     </li>
                   </ul>
