@@ -9,32 +9,34 @@ const Header = ({ isActive, text }) => {
 
     return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 ">
-        <div className="grid grid-cols-1 gap-4 h-12">
-            <h1>Henry Tapia :D</h1>
-            <h3>Jr. Design Engineer</h3>
-            <p className="mt-2 mb-8 max-w-xs leading-normal">I am a creative who builds unique web pages for creatives using my Frontend and Web Design experience </p>
-            <ul className="font-bold">
-              <li className={`nav-item ${isActive ? 'active' : ''}`}>
-                <Link class="group flex items-center py-3 " href="#about">
-                    <span class="nav-indicator ${isActive ? 'w-16 bg-opacity-100' : ''} mr-4 h-px w-8 bg-[#014921]/40 transition-all group-hover:w-16 group-hover:bg-[#014921] group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span class="nav-text ${isActive ? 'text-opacity-100' : ''} text-xs font-bold uppercase tracking-widest text-[#014921]/40 group-hover:text-[#014921] group-focus-visible:text-slate-200">About</span>
-                </Link>
-              </li>
+        <div className="">
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Henry Tapia :D</h1>
+            <h2 class="mt-3 text-lg font-medium tracking-tight sm:text-xl">Jr. Design Engineer</h2>
+            <p className="mt-4 max-w-xs leading-normal">I am a creative who builds unique web pages for creatives using my Frontend and Web Design experience </p>
+            <nav className="nav hidden lg:block">
+              <ul className="font-bold mt-16 w-max">
+                <li className={`active ${isActive ? 'active' : ''}`}>
+                  <Link class="group flex items-center py-3 " href="#about">
+                      <span class="nav-indicator ${isActive ? 'w-16 bg-opacity-100' : ''} mr-4 h-px w-8 bg-[#014921]/40 transition-all group-hover:w-16 group-hover:bg-[#014921] group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                      <span class="nav-text ${isActive ? 'text-opacity-100' : ''} text-xs font-bold uppercase tracking-widest text-[#014921]/40 group-hover:text-[#014921] group-focus-visible:text-slate-200">About</span>
+                  </Link>
+                </li>
 
-              <li className={`nav-item ${isActive ? 'active' : ''}`}>
-                <Link class="group flex items-center py-3" href="#projects">
-                    <span class="nav-indicator mr-4 h-px w-8 bg-[#014921]/40 transition-all group-hover:w-16 group-hover:bg-[#014921] group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span class="nav-text text-xs font-bold uppercase tracking-widest text-[#014921]/40 group-hover:text-[#014921] group-focus-visible:text-slate-200">Projects</span>
-                </Link>
-              </li>
+                <li className={`active ${isActive ? 'active' : ''}`}>
+                  <Link class="group flex items-center py-3" href="#projects">
+                      <span class="nav-indicator ${isActive ? 'w-16 bg-opacity-100' : ''} mr-4 h-px w-8 bg-[#014921]/40 transition-all group-hover:w-16 group-hover:bg-[#014921] group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                      <span class="nav-text ${isActive ? 'text-opacity-100' : ''} text-xs font-bold uppercase tracking-widest text-[#014921]/40 group-hover:text-[#014921] group-focus-visible:text-slate-200">Projects</span>
+                  </Link>
+                </li>
 
-              <li className={`nav-item ${isActive ? 'active' : ''}`}>
-                <Link class="group flex items-center py-3" href="#experience">
-                    <span class="nav-indicator mr-4 h-px w-8 bg-[#014921]/40 transition-all group-hover:w-16 group-hover:bg-[#014921] group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
-                    <span class="nav-text text-xs font-bold uppercase tracking-widest text-[#014921]/40 group-hover:text-[#014921] group-focus-visible:text-slate-200">Experience</span>
-                </Link>
-              </li>
-            </ul>
+                <li className={`active ${isActive ? 'active' : ''}`}>
+                  <Link class="group flex items-center py-3" href="#experience">
+                      <span class="nav-indicator ${isActive ? 'w-16 bg-opacity-100' : ''} mr-4 h-px w-8 bg-[#014921]/40 transition-all group-hover:w-16 group-hover:bg-[#014921] group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                      <span class="nav-text ${isActive ? 'text-opacity-100' : ''} text-xs font-bold uppercase tracking-widest text-[#014921]/40 group-hover:text-[#014921] group-focus-visible:text-slate-200">Experience</span>
+                  </Link>
+                </li>
+              </ul>
+            </nav>
         </div>
         <ul className="ml-1 mt-8 flex">
             <Link href="https://www.linkedin.com/in/henry-tapia-" target="_blank" rel="noreferrer noopener" className="mr-8">
